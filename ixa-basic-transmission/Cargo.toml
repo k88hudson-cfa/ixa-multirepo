@@ -1,0 +1,9 @@
+[package]
+name = "ixa-basic-transmission"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ixa = { "path" = "../../ixa" }
+ixa-vaccines = { "path" = "../ixa-vaccines" }
+serde = { version = "1.0.228", features = ["derive"] }
